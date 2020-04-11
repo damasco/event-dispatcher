@@ -4,7 +4,7 @@
 
 ### 1. Simple provider 
 
-*Example*
+**Example:**
 
 ```php
 $provider = new Damasco\EventDispatcher\Provider\ListenerProvider();
@@ -18,12 +18,12 @@ $provider->addListener(ExampleEvent::class, new class {
     }
 });
 $eventDispatcher = new Damasco\EventDispatcher\EventDispatcher($provider);
-$eventDispatcher->dispatch(new ExampleEvent());
+$eventDispatcher->dispatch(new ExampleEvent(...));
 ```
 
 ### 2. Container aware provider
 
-*Example*
+**Example:**
 
 ```php
 /** @var \Psr\Container\ContainerInterface $container */
