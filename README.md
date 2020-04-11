@@ -1,5 +1,11 @@
 # PSR-14 EventDispatcher
 
+## Installation
+
+```bash 
+$ composer require damasco/event-dispatcher
+```
+
 ## Providers
 
 ### 1. Simple provider 
