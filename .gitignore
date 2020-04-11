@@ -1,0 +1,11 @@
+.idea
+vendor
+
+composer.phar
+composer.lock
+
+phpunit.phar
+phpunit.xml
+.phpunit.result.cache
+
+Thumbs.db

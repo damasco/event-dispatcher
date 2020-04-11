@@ -1,0 +1,42 @@
+{
+    "name": "damasco/event-dispatcher",
+    "description": "PSR-14 EventDispatcher",
+    "keywords": ["event", "event-dispatcher", "PSR-14"],
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Bulat Damdinov",
+            "email": "dbulats88@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "psr/container": "1.0.0",
+        "psr/event-dispatcher": "1.0.0"
+    },
+    "require-dev": {
+        "php-di/php-di": "^6.1",
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Damasco\\EventDispatcher\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Damasco\\EventDispatcher\\Tests\\": "tests"
+        }
+    },
+    "provide": {
+        "psr/event-dispatcher-implementation": "1.0"
+    },
+    "suggest": {
+        "psr/container-implementation": ""
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
